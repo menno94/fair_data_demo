@@ -16,9 +16,10 @@ To run snake make:
 Project Organization
 --------------------
 The project organization is created with cookiecutter.
+
     .
-    ├── AUTHORS.md
     
+    ├── AUTHORS.md
     ├── LICENSE
     ├── README.md
     ├── bin                 <- Your compiled model code can be stored here (not tracked by git)
