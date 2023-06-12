@@ -1,11 +1,11 @@
 fair-data-demo
 ==============================
 
-A demo project for fair-data.
+A demo project for fair-data. This demo project interpolates grain sizes for different locations in the Netherlands based on a few points with measurements. Next to the interpolation, the data is written to a asci file and the results are plotted. 
 
 Python
 --------------------
-To install the envionment
+To install the envionment with anaconda:
 `conda env create -f environment.yml`
 
 Snakemake
@@ -15,7 +15,11 @@ To run snake make:
 
 Project Organization
 --------------------
-The project organization is created with cookiecutter.
+The project organization is created with cookiecutter:
+
+`cookiecutter gl:deltares/imod/cookiecutter-reproducible-project`
+
+This results in the following structure:
 
     .
     
