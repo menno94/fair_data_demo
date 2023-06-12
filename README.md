@@ -3,9 +3,19 @@ fair-data-demo
 
 A demo project for fair-data.
 
+Python
+--------------------
+To install the envionment
+`conda env create -f environment.yml`
+
+Snakemake
+--------------------
+To run snake make:
+`snakemake --cores 1`
+
 Project Organization
 --------------------
-
+The project organization is created with cookiecutter.
     .
     ├── AUTHORS.md
     ├── LICENSE
