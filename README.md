@@ -1,7 +1,7 @@
-fair-data-demo
+Fair-data-demo
 ==============================
 
-A demo project for fair-data. This demo project interpolates grain sizes for different locations in the Netherlands based on a few points with measurements. Next to the interpolation, the data is written to a asci file and the results are plotted. 
+A demo project to demonstrate the fair-data prinicples. This demo project interpolates grain sizes for different locations in the Netherlands based on a few points with measurements. Next to the interpolation, the data is written to a asci file and the results are plotted. 
 
 Python
 --------------------
@@ -12,6 +12,11 @@ Snakemake
 --------------------
 To run snake make:
 `snakemake --cores 1`
+
+DVC
+--------------------
+To get the data run:
+`dvc pull`
 
 Project Organization
 --------------------
